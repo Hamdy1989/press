@@ -1,0 +1,25 @@
+{
+    "name": "vencent/press",
+    "description": "markdown powered package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hamdy ahmed",
+            "email": "hamdyeng494@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "vencent\\Press\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "vencent\\Press\\Tests": "tests/"
+        }
+    }
+}
